@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+
+<head>
+    <title>Trang chủ</title>
+    <meta name="description" content="Trang chu" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="./public/img/LogoTitle.png" />
+    <link type="text/css" rel="stylesheet" href='./public/css/flexslider.css' />
+    <link type="text/css" rel="stylesheet" href="./public/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="./public/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="./public/css/theme1.css" />
+    <link type="text/css" rel="stylesheet" href="./public/css/edit.css" />
+</head>
+
+<body>
+    <div id="pjWrapper" class="wrapper">
+        <div class="bar">
+            <div class="container">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle user" type="button" id="barDropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/61102a0e7c990a1f9a4f8f98718bb385.jpg" alt=""
+                                class="photo"> asdasd
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="barDropdown1">
+                            <li>
+                                <a href="employer-profile.html">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Profile</a>
+                            </li>
+                            <li>
+                                <a href="my-jobs.html">
+                                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> My jobs</a>
+                            </li>
+                            <li>
+                                <a href="shortlisted.html">
+                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Shortlisted</a>
+                            </li>
+                            <li>
+                                <a href="payments.html">
+                                    <span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Payments</a>
+                            </li>
+                            <li>
+                                <a href="logout.html">
+                                    <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <a href="" class="logo">
+                    <img src="./public/img/logotdmu.png" alt="" title="">
+                </a>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav">
+                        <li class="current">
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="">Công việc</a>
+                        </li>
+                        <li>
+                            <a href="">Tìm kiếm</a>
+                        </li>
+                        <li>
+                            <a href="">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="">Thông tin</a>
+                        </li>
+                        <li>
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="section-background-intro-edit intro intro-home">
+            <div class="search-jobs">
+                <div class="container">
+                    <h1>
+                        <span class="wc-editable" data-pk="ws_find_a_job" data-type="text">Tìm kiếm công việc</span>
+                    </h1>
+
+                    <form method="get" action="jobs.html">
+                        <input type="hidden" name="job_search" value="1" />
+                        <div class="row">
+                            <div class="col-sm-5 col-xs-12">
+                                <div class="form-group">
+                                    <input name="keyword" class="form-control" placeholder="job title, keywords or company name" type="text">
+
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-5 col-xs-12">
+                                <div class="form-group">
+                                    <input name="location" class="form-control" placeholder="city or state" type="text" id="location">
+
+                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2 col-xs-12">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <span class="wc-editable" data-pk="ws_find" data-type="action">Tìm kiếm</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p>
+                        <a href="">Tìm kiếm nâng cao</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="section-jobs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-xs-12">
+                        <h2 class="text-center">
+                            <span class="wc-editable" data-pk="ws_recent_jobs" data-type="text">Công việc mới nhất</span>
+                        </h2>
+
+                        <div class="recent-jobs">
+                            <a href="#" class="job">
+                                <div class="job-image">
+                                    <img src="./public/img/cty1.jpg" alt="">
+                                </div>
+
+                                <div class="job-info">
+                                    <div class="job-title">Cardiac/Pulmonary Rehab day shift</div>
+
+                                    <div class="job-meta">
+                                        <ul>
+                                            <li class="col-size-1of4" title="Posted on">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+
+                                                06.04.2017 </li>
+
+                                            <li class="col-size-2of4" title="Category">
+                                                <span class="glyphicon glyphicon-briefcase"></span>
+
+                                                Medical / Health Jobs </li>
+
+                                            <li class="col-size-1of4" title="Location">
+                                                <span class="glyphicon glyphicon-map-marker"></span>
+
+                                                Berlin </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="job-description">
+                                        The nurse will evaluate, assess and develop and appropriate exercise regimen for inpatients and outpatients. Responsibilities:The
+                                        RN will also read EKG's and provide education on exercise. Care will be provided
+                                        in accordance with hospital policies and procedures, cardiopulmonary rehab policies
+                                        and procedures.... ...</div>
+                                </div>
+                            </a>
+                            <a href="#" class="job">
+                                <div class="job-image">
+                                    <img src="./public/img/cty2.jpg" alt="">
+                                </div>
+
+                                <div class="job-info">
+                                    <div class="job-title">Chef / Cook</div>
+
+                                    <div class="job-meta">
+                                        <ul>
+                                            <li class="col-size-1of4" title="Posted on">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+
+                                                06.04.2017 </li>
+
+                                            <li class="col-size-2of4" title="Category">
+                                                <span class="glyphicon glyphicon-briefcase"></span>
+
+                                                Food Services / Hospitality Jobs </li>
+
+                                            <li class="col-size-1of4" title="Location">
+                                                <span class="glyphicon glyphicon-map-marker"></span>
+
+                                                London </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="job-description">
+                                        Chef / Cook needed for upscale mason preschool/daycare. Full-time- 7:30am to 4:30pm Monday thru Friday. We do not serve typical
+                                        daycare food such as hotdogs, chicken nuggets, french fries, fish sticks, hamburger
+                                        on a bun, etc. Instead we prepare fresh, homestyle meals, with as many organic ingredients...
+                                        ...</div>
+                                </div>
+                            </a>
+                            <a href="#" class="job">
+                                <div class="job-image">
+                                    <img src="./public/img/cty3.jpg" alt="">
+                                </div>
+
+                                <div class="job-info">
+                                    <div class="job-title">Security Officer - Luxury Retail</div>
+
+                                    <div class="job-meta">
+                                        <ul>
+                                            <li class="col-size-1of4" title="Posted on">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+
+                                                06.04.2017 </li>
+
+                                            <li class="col-size-2of4" title="Category">
+                                                <span class="glyphicon glyphicon-briefcase"></span>
+
+                                                Security / Protective Services Jobs </li>
+
+                                            <li class="col-size-1of4" title="Location">
+                                                <span class="glyphicon glyphicon-map-marker"></span>
+
+                                                London </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="job-description">
+                                        Pro Active Retail Security Officer required to operate in luxury retail environment. Searching for self-motivated individuals
+                                        who are always looking to achieve the highest standards. Responsibilities:Regular
+                                        Report Writing, Liaison between the team and the client and head office, Door Supervision,
+                                        Staff... ...</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="recent-jobs-actions">
+                            <a href="#" class="btn btn-secondary">
+                                <span class="wc-editable" data-pk="front_browse_jobs" data-type="text">Xem tất cả</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-background-edit">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h3>
+                            <span>Đăng nhập để bắt đầu</span>
+                        </h3>
+
+                        <div class="paragraph">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                        </div>
+
+                        <br>
+
+                        <a class="btn btn-tertiary" href="#">
+                            <span class="wc-editable" data-pk="ws_btn_subscribe" data-type="action">Đăng nhập</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="section-employers">
+            <div class="container">
+                <h6>
+                    <span class="wc-editable" data-pk="ws_featured_employers" data-type="text">Các nhà tuyển dụng hàng đầu</span>
+                </h6>
+
+                <ul class="featured-employers">
+                    <li>
+                        <a href="#">
+                            <img style="width: 146px;" src="./public/img/cty1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img style="width: 146px;" src="./public/img/cty2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img style="width: 146px;" src="./public/img/cty3.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <div class="push"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="clearfix">
+                <a href="" class="footer-logo">
+                    <img src="./public/img/logotdmu.png" alt="" title="">
+                </a>
+
+                <div class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="">Trang chu</a>
+                        </li>
+                        <li>
+                            <a href="jobs.html">Công việc</a>
+                        </li>
+                        <li>
+                            <a href="search.html">Tìm kiếm</a>
+                        </li>
+                        <li>
+                            <a href="resumes.html">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="search-resumes.html">Thông tin</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="clearfix">
+                <div class="footer-credits">
+                    <p>&copy; 2018
+                        <span class="wc-editable" data-pk="ws_car_name" data-type="text">Thực tập</span>
+                        <span class="wc-editable" data-pk="ws_rights_reserved" data-type="text">From Nam with Love.</span>
+                    </p>
+                    <p>
+                        <a href="https://www.vevs.com/job-portal-websites/" target="_blank">Job Portal Website Builder</a> by
+                        <a href="https://www.vevs.com/" target="_blank">VEVS.com</a>
+                    </p>
+                </div>
+
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/social-facebook-176-1507281876.png" alt=""
+                                    title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com" target="_blank">
+                                <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/social-googleplus-177-1507281878.png" alt=""
+                                    title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/social-instagram-181-1507281879.png" alt=""
+                                    title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com" target="_blank">
+                                <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/social-linkedin-178-1507281881.png" alt=""
+                                    title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com" target="_blank">
+                                <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/social-pinterest-180-1507281882.png" alt=""
+                                    title="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank">
+                                <img src="http://vevs.website/web-demo/job-portal-website/app/web/upload/medium/social-twitter-179-1507281884.png" alt=""
+                                    title="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="back-to-top" href="javascript:void(0);" title="Top"></a>
+    </footer>
+
+
+
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/bootstrap.min.js"></script>
+    <script src="./public/js/backtotop.js"></script>
+
+</body>
+
+</html>
